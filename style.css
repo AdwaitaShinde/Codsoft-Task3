@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+    margin: 30px;
+    height: 100px;
+    text-align: center;
+}
+
+
+main{
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.outer-box{
+    background-color: black;
+    height: 450px;
+    width: 400px;
+    border-radius: 10%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+
+}
+
+#display{
+    background-color: antiquewhite;
+    height: 60px;
+    width: 80%;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 20px;
+    font-size: 2rem;
+    color: black;
+
+}
+
+.button{
+    /* background-color: blue; */
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+button{
+    height: 56px;
+    width: 60px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    border: none;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    
+}
+
+button:hover {
+    background-color: lightgray;
+    transform: scale(1.1);
+}
+
+button:active {
+    background-color: darkgray;
+}
+
+button:nth-child(4n+4) {
+    background-color: orange;
+    color: white;
+}
+
+button:nth-child(4n+4):hover {
+    background-color: darkorange;
+}
+
+button:nth-child(4n+4):active {
+    background-color: orangered;
+}

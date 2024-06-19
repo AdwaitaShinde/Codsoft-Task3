@@ -3,7 +3,7 @@
 This repository contains a basic calculator implemented using HTML, CSS, and JavaScript. The calculator supports addition, subtraction, multiplication, and division operations with a user-friendly interface.
 <br>
 <br>
-Author  Adwaita Shinde
+Author - Adwaita Shinde
 <br>
 <br>
 ## Features
